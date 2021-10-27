@@ -1,0 +1,40 @@
+{
+    "name": "ldommer/laravel-ide-helper-refresh",
+    "description": "Refresh the Laravel IDE Helper files.",
+    "keywords": [
+        "laravel",
+        "ide",
+        "helper",
+        "refresh"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lennart Dommer",
+            "email": "me@lennart-dommer.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "barryvdh/laravel-ide-helper": ">=2.4.3",
+        "illuminate/console": "^6 || ^7 || ^8",
+        "illuminate/support": "^6 || ^7 || ^8"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demian2921\\IdeHelperRefresh\\IdeHelperRefreshServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Demian2921\\IdeHelperRefresh\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
