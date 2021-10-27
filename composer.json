@@ -1,6 +1,6 @@
 {
     "name": "ldommer/laravel-ide-helper-refresh",
-    "description": "Refresh the Laravel IDE Helper files.",
+    "description": "Refresh all the Laravel IDE Helper files by executing a single command.",
     "keywords": [
         "laravel",
         "ide",
