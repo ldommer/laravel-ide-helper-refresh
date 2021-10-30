@@ -11,7 +11,8 @@
     "authors": [
         {
             "name": "Lennart Dommer",
-            "email": "me@lennart-dommer.de"
+            "email": "me@lennart-dommer.de",
+            "homepage": "https://www.lennart-dommer.de"
         }
     ],
     "require": {
