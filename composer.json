@@ -21,6 +21,13 @@
         "illuminate/console": "^6 || ^7 || ^8",
         "illuminate/support": "^6 || ^7 || ^8"
     },
+    "autoload": {
+        "psr-4": {
+            "Demian2921\\IdeHelperRefresh\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "sort-packages": true
     },
@@ -30,12 +37,5 @@
                 "Demian2921\\IdeHelperRefresh\\IdeHelperRefreshServiceProvider"
             ]
         }
-    },
-    "autoload": {
-        "psr-4": {
-            "Demian2921\\IdeHelperRefresh\\": "src"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
